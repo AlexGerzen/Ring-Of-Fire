@@ -9,6 +9,10 @@
     img {
         height: 100vh;
     }
+
+    @media (max-width: 960px) {
+        overflow: hidden;
+    }
 }
 
 .start-label-box {
@@ -20,7 +24,7 @@
     justify-content: center;
 
     img {
-        width: 20vw;
+        width: 200px;
         height: auto;
 
         &:hover {
@@ -28,4 +32,5 @@
             cursor: pointer;
         }
     }
+
 }
